@@ -1,0 +1,66 @@
+[
+    {
+        "name": " Evaporator Coil",
+        "img": "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "These coils are usually made out of copper but can also be made of steel or aluminum. Copper is the preferred choice because it has better thermal conductivity, is easier to work with, and is effortless to maintain.",
+        "price": "80",
+        "minimum": "250",
+        "quantity": "52"
+    },
+    {
+        "name": " Compressor",
+        "img": "https://www.danfoss.com/media/2250/compressor-for-refrigeration-danfoss.jpg",
+        "description": "Perhaps the most important of all air conditioner components, the compressor is the workhorse of air conditioning.",
+        "price": "40",
+        "minimum": "150",
+        "quantity": "80"
+    },
+    {
+        "name": "Condenser Coil",
+        "img": "https://images.pexels.com/photos/3825581/pexels-photo-3825581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "The opposite of the evaporator, the condenser coil, pulls away heat from the refrigerant and ejects it to the outside environment.",
+        "price": "120",
+        "minimum": "200",
+        "quantity": "500"
+    },
+    {
+        "name": " Expansion Valve",
+        "img": "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Full range of local controls on the device enable you to control the air conditioner even without Wi-Fi",
+        "price": "110",
+        "minimum": "150",
+        "quantity": "120"
+    },
+    {
+        "name": " Air Filter",
+        "img": "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "An air conditioner filter is like a screen mesh, keeping the dirt and dust, and other airborne particles away from the air conditioner.",
+        "price": "130",
+        "minimum": "350",
+        "quantity": "49"
+    },
+    {
+        "name": " Evaporator Coil",
+        "img": "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "These coils are usually made out of copper but can also be made of steel or aluminum. Copper is the preferred choice because it has better thermal conductivity, is easier to work with, and is effortless to maintain.",
+        "price": "90",
+        "minimum": "150",
+        "quantity": "115"
+    },
+    {
+        "name": "Refrigerant",
+        "img": "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "We’ve mentioned refrigerant a lot above, and you might be wondering what it is. It is the substance that actually does the cooling.",
+        "price": "140",
+        "minimum": "550",
+        "quantity": "60"
+    },
+    {
+        "name": "Thermostat",
+        "img": "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "The thermostat is responsible for maintaining your desired indoor temperature. This is where you inform your AC unit of your cooling preference.",
+        "price": "50",
+        "minimum": "200",
+        "quantity": "120"
+    }
+]

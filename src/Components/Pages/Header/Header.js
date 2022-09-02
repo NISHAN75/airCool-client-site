@@ -26,7 +26,7 @@ const Header = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl text-white font-bold">AirCool</a>
+                    <a class="btn btn-ghost normal-case text-xl text-white font-bold logo">AirCool</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
@@ -34,7 +34,7 @@ const Header = () => {
                         <li><Link className=' text-[#dddd] font-bold hover:bg-secondary  hover:text-white' to="/">Home</Link></li>
                         <li><Link className=' text-[#dddd] font-bold hover:bg-secondary hover:text-white' to="/">Home</Link></li>
                         <li><Link className=' text-[#dddd] font-bold hover:bg-secondary  hover:text-white' to="/">Home</Link></li>
-                        <li><Link className='text-[#dddd] font-bold hover:bg-secondary  hover:text-white' to="/">Home</Link></li>
+                        <li><Link className='text-[#dddd] font-bold hover:bg-secondary  hover:text-white' to="/login">Login</Link></li>
                        
                     </ul>
                 </div>
