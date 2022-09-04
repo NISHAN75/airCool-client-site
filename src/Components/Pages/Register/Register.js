@@ -9,6 +9,7 @@ import Loading from "../Loading/Loading";
 import { Link, useNavigate } from "react-router-dom";
 import { useSendEmailVerification } from "react-firebase-hooks/auth";
 import useAuth from "../../../Hooks/useAuth";
+import useToken from "../../../Hooks/useToken";
 
 
 const Register = () => {
@@ -34,8 +35,9 @@ const Register = () => {
     alert("Please Verify Your Email");
     reset();
   };
+ 
   const navigate = useNavigate();
-
+  const [token] = useToken(user || gUser);
   let errorElement;
   if (error || gError || verifyError || updateError) {
     errorElement = (
@@ -53,6 +55,9 @@ const Register = () => {
     return <Loading></Loading>;
   }
 
+  if (token) {
+    navigate("/");
+  }
 
   return (
     <section className=" flex h-screen justify-center items-center">

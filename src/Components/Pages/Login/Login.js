@@ -10,6 +10,7 @@ import { useSendPasswordResetEmail } from "react-firebase-hooks/auth";
 import { toast } from "react-toastify";
 import useAuth from "../../../Hooks/useAuth";
 import Loading  from "../Loading/Loading";
+import useToken from "../../../Hooks/useToken";
 
 
 const Login = () => {
@@ -33,28 +34,34 @@ const Login = () => {
     };
  
 
+    const [token] = useToken(user || gUser);
+
     let errorElement;
     let navigate = useNavigate();
     let location = useLocation();
     let from = location.state?.from?.pathname || "/";
-   
+    useEffect(() => {
+      if (token) {
+        navigate(from, { replace: true });
+      }
+    }, [token, from, navigate]);
     if (error || gError || ResetError) {
-        errorElement = (
-            <p className="text-red-500 mb-5">
-                <small>
-                    {error?.message || gError?.message || ResetError?.message}
-                </small>
-            </p>
-        );
+      errorElement = (
+        <p className="text-red-500 mb-5">
+          <small>
+            {error?.message || gError?.message || ResetError?.message}
+          </small>
+        </p>
+      );
     }
     if (loading || gLoading || ResetSending) {
-        return <Loading></Loading>;
+      return <Loading></Loading>;
     }
     const resetEmail = async (email) => {
-        await sendPasswordResetEmail(email);
-        if (email) {
-            toast("Sent email");
-        }
+      await sendPasswordResetEmail(email);
+      if (email) {
+        toast("Sent email");
+      }
     };
 
     return (
