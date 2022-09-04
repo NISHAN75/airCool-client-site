@@ -6,3 +6,7 @@
         font-family: 'Calligraffitti', cursive;
 
 }
+
+.menu[class*=" p-"] li > *, .menu[class^="p-"] li > * {
+        border-radius: var(--none, 0rem) !important;
+    }

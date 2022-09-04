@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useForm } from "react-hook-form";
 import { useNavigate, useParams } from "react-router-dom";
-import { toast } from "react-toastify";
 import useAuth from "../../../Hooks/useAuth";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './ProductDetails.css'
 
 
 const ProductDetails = () => {
@@ -47,7 +49,7 @@ const ProductDetails = () => {
         userPhone: data.phone,
         pay: totalPrice,
       };
-      fetch("https://secret-coast-72696.herokuapp.com/orders", {
+      fetch("http://localhost:5000/orders", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -59,12 +61,14 @@ const ProductDetails = () => {
           console.log(data);
           if (data.success) {
             toast.success(
-              `congratulations! Your ${part.name} parts Order Successfully`
+              <p className="text-green-500">{`congratulations! Your ${part.name} parts Order Successfully`}</p>
             );
-            navigate("/home");
+            navigate('/')
           } else {
-            toast.error(`This Order already declare!! 
-          check  My Order page search parts field ${part.name} .Please Try another?`);
+            toast.error(
+              <p className="text-red-700">{`This Order already declare!! 
+              check  My Order page search parts field ${part.name} .Please Try another?`}</p>
+            );
           }
         });
     }
@@ -76,34 +80,36 @@ const ProductDetails = () => {
   };
 
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 px-20 gap-10 justify-center my-20">
-      <div className="card card-compact w-max-lg h-4/5 mt-40 text-left shadow-xl flex">
+    <section className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1  px-20 gap-10 justify-center my-20">
+      <div className="card card-compact w-max-lg w-full  text-left shadow-xl flex">
         <figure>
           <img src={part.img} alt="parts img" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">
+          <h2 className="card-title mt-10">
             <span className="text-primary font-bold text-xl mr-3">
               Part name:
             </span>
-            {part.name}
+            <span className="font-bold text-primary">{part.name}</span>
           </h2>
+          <div className="leading-[15px]">
           <p className="text-zinc font-bold">
-            <span className="text-xl mr-3 text-primary">minimum Order:</span>
-            <span>{part.minimum}</span>
+            <span className="text-xl mr-3 font-bold text-primary">minimum Order:</span>
+            <span className="font-bold text-primary" >{part.minimum}</span>
           </p>
           <p className="text-zinc font-bold">
-            <span className="text-xl mr-3 text-primary">Available:</span>
-            <span>{part.available}</span>
+            <span className="text-xl mr-3 font-bold text-primary">Available:</span>
+            <span className="font-bold text-primary">{part.available}</span>
           </p>
           <p className="text-zinc font-bold">
-            <span className="text-xl mr-3 text-primary">Price:</span>
-            <span>${part.price}</span>
+            <span className="text-xl mr-3 font-bold text-primary">Price:</span>
+            <span className="font-bold text-primary">${part.price}</span>
           </p>
+          </div>
         </div>
       </div>
-      <div className="card card-compact w-max-lg  shadow-xl flex">
-        <div className="card-body">
+      <div className="card card-compact w-max-lg h-auto w-full  shadow-xl flex">
+        <div className="card-body items-center">
           <h2 className="card-title text-primary justify-center font-bold">
             Enter Your information
           </h2>
@@ -118,7 +124,7 @@ const ProductDetails = () => {
                 readOnly
                 disabled
                 placeholder="Enter Your Name"
-                className="input input-bordered w-full"
+                className="input input-bordered w-full font-bold text-black"
               />
               <label className="label">
                 {errors.name?.type === "required" && (
@@ -138,7 +144,7 @@ const ProductDetails = () => {
                 readOnly
                 disabled
                 placeholder="Enter Your Email"
-                className="input input-bordered w-full"
+                className="input input-bordered w-full font-bold text-black"
               />
             </div>
             <div className="form-control w-80 max-w-xs">
@@ -148,7 +154,7 @@ const ProductDetails = () => {
               <input
                 type="phone"
                 placeholder="Enter Your phone"
-                className="input input-bordered w-full"
+                className="input input-bordered w-full text-black"
                 {...register("phone", {
                   required: {
                     value: true,
@@ -171,7 +177,7 @@ const ProductDetails = () => {
               <input
                 type="text"
                 placeholder="Enter Your Address"
-                className="input input-bordered w-full"
+                className="input input-bordered w-full text-black"
                 {...register("address", {
                   required: {
                     value: true,
@@ -195,7 +201,7 @@ const ProductDetails = () => {
                 type="number"
                 name="quantity"
                 placeholder="Enter Your Quantity"
-                className="input input-bordered w-full"
+                className="input input-bordered w-full text-black"
                 {...register("quantity", {
                   required: {
                     value: true,
