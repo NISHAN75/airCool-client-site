@@ -18,8 +18,8 @@ import AddReview from './Components/Pages/NormalUser/AddReview/AddReview';
 import AddProduct from './Components/Pages/Admin/AddProduct/AddProduct';
 import AllProducts from './Components/Pages/Admin/AllProducts/AllProducts';
 import AllOrders from './Components/Pages/Admin/AllOrders/AllOrders';
-import Users from './Components/Pages/Users/Users';
 import MyOrders from './Components/Pages/NormalUser/MyOrders/MyOrders';
+import Users from './Components/Pages/Admin/Users/Users';
 
 
 

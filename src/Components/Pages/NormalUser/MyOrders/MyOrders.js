@@ -38,20 +38,20 @@ const MyOrders = () => {
   }, [user]);
 
   return (
-    <section>
+    <section >
       <div>
         <h2 className="text-center font-bold text-3xl text-primary mt-5">
           Your Order : {orders.length}
         </h2>
-        <Table className="text-left px-5 mt-10">
+        <Table className="text-center mt-10">
           <Thead>
             <Tr className="bg-primary text-white uppercase">
-              <Th>S.L</Th>
-              <Th>User</Th>
-              <Th>Parts Name</Th>
-              <Th>Phone number</Th>
-              <Th>Order Quantity</Th>
-              <Th>Payment</Th>
+              <Th className="px-5 py-4">S.L</Th>
+              <Th  className="px-5 py-4">User</Th>
+              <Th  className="px-5 py-4">Parts Name</Th>
+              <Th  className="px-5 py-4">Phone number</Th>
+              <Th  className="px-5 py-4">Order Quantity</Th>
+              <Th  className="px-5 py-4">Payment</Th>
             </Tr>
           </Thead>
           <Tbody>

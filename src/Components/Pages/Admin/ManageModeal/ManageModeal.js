@@ -1,13 +1,16 @@
 import React from "react";
 import { toast } from "react-toastify";
 
-const OrderDelete = ({ setRemoveOrder, setOrders, removeOrder, orders }) => {
-  console.log(removeOrder);
-
-  const { userEmail, partName } = removeOrder;
+const MangeModal = ({
+  setAllOrders,
+  allOrders,
+  setRemoveOrder,
+  removeOrder,
+}) => {
+  const { userEmail, partName, _id } = removeOrder;
   const handleDelete = (partId) => {
     console.log("click", partId);
-    const url = `http://localhost:5000/orders?email=${removeOrder.userEmail}`;
+    const url = `https://secret-coast-72696.herokuapp.com/allOrders/${_id}`;
     console.log(url);
 
     fetch(url, {
@@ -20,12 +23,12 @@ const OrderDelete = ({ setRemoveOrder, setOrders, removeOrder, orders }) => {
       .then((data) => {
         if (data.deletedCount > 0) {
           console.log("hi");
-          const remaining = orders.filter((order) => order.partId !== partId);
-          toast.success(
-            <p className="text-primary">Delete Successfully</p>
+          const remaining = allOrders.filter(
+            (order) => order.partId !== partId
           );
+          toast.success("Delete Successfully");
           setRemoveOrder(null);
-          setOrders(remaining);
+          setAllOrders(remaining);
         }
       });
   };
@@ -63,4 +66,4 @@ const OrderDelete = ({ setRemoveOrder, setOrders, removeOrder, orders }) => {
   );
 };
 
-export default OrderDelete;
+export default MangeModal;

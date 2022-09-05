@@ -8,6 +8,7 @@ const Dashboard = () => {
   const [auth] = useAuth();
   const [user] = useAuthState(auth);
   const [admin] = useAdmin(user);
+
   return (
     <div className="drawer drawer-mobile">
       <input id="dashBoard-sideBar" type="checkbox" className="drawer-toggle" />
