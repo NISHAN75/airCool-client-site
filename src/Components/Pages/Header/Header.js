@@ -44,8 +44,8 @@ const Header = () => {
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
                         <li><Link className=' text-[#dddd] font-bold hover:bg-secondary  hover:text-white' to="/">Home</Link></li>
-                        <li><Link className=' text-[#dddd] font-bold hover:bg-secondary  hover:text-white' to="/">Home</Link></li>
-                        <li><Link className=' text-[#dddd] font-bold hover:bg-secondary hover:text-white' to="/">Home</Link></li>
+                        <li><Link className=' text-[#dddd] font-bold hover:bg-secondary  hover:text-white' to="/about">About us</Link></li>
+                        <li><Link className=' text-[#dddd] font-bold hover:bg-secondary hover:text-white' to="/blog">Blogs</Link></li>
                         <li><Link className=' text-[#dddd] font-bold hover:bg-secondary  hover:text-white' to="/dashborad">Dashboard</Link></li>
                         <li>
                             {user ? (

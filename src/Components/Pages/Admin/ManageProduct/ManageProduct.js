@@ -34,7 +34,9 @@ const ManageProduct = ({
           const remaining = allProducts.filter(
             (product) => product._id !== _id
           );
-          toast.success("Delete Successfully");
+          toast.success(
+            <p className="text-primary">Delete Successfully</p>
+          );
           setDeleteProduct(null);
           setAllProducts(remaining);
         }
