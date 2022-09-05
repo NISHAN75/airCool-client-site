@@ -35,7 +35,7 @@ const AddReviews = () => {
         reset();
     };
     return (
-        <section className=" mx-20 my-10">
+        <section className=" flex h-3/4 justify-center items-center my-10">
             <div>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="form-control w-80 max-w-xs">

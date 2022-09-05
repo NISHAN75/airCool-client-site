@@ -10,9 +10,7 @@ const MangeModal = ({
   const { userEmail, partName, _id } = removeOrder;
   const handleDelete = (partId) => {
     console.log("click", partId);
-    const url = `https://secret-coast-72696.herokuapp.com/allOrders/${_id}`;
-    console.log(url);
-
+    const url = `http://localhost:5000/allOrders/${_id}`;
     fetch(url, {
       method: "DELETE",
       headers: {
@@ -22,11 +20,12 @@ const MangeModal = ({
       .then((res) => res.json())
       .then((data) => {
         if (data.deletedCount > 0) {
-          console.log("hi");
           const remaining = allOrders.filter(
             (order) => order.partId !== partId
           );
-          toast.success("Delete Successfully");
+          toast.success(
+            <p className="text-primary">Delete Successfully</p>
+          );
           setRemoveOrder(null);
           setAllOrders(remaining);
         }
