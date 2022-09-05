@@ -19,6 +19,7 @@ const User = ({ user, index, refetch, setRemoveUser }) => {
                 }
                 return res.json();
             })
+            
             .then((data) => {
                 if (data.modifiedCount > 0) {
                     refetch();
@@ -30,14 +31,14 @@ const User = ({ user, index, refetch, setRemoveUser }) => {
     };
 
     return (
-        <Tr className=" hover:bg-primary hover:text-white font-bold border-b-4 border-primary">
+        <Tr className=" p-20 border-b-4  border-primary text-center">
             <Th>{index + 1}</Th>
-            <Td className="p-8">{user?.email}</Td>
-            <Td className="p-8">
+            <Td className="p-8 text-primary font-bold">{user?.email}</Td>
+            <Td className="p-8 text-primary font-bold">
                 {role !== "admin" && (
                     <button
                         onClick={makeAdmin}
-                        className="btn btn-primary hover:bg-white"
+                        className="btn btn-primary hover:bg-white hover:text-primary"
                     >
                         Make admin
                     </button>
@@ -47,7 +48,7 @@ const User = ({ user, index, refetch, setRemoveUser }) => {
                 <label
                     onClick={() => setRemoveUser(user)}
                     htmlFor="delete-conform"
-                    className="btn  bg-red-500 hover:bg-white hover:text-black"
+                    className="btn  bg-red-500 hover:bg-white hover:text-red-500"
                 >
                     Remove User
                 </label>
