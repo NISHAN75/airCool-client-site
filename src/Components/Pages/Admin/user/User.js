@@ -32,13 +32,13 @@ const User = ({ user, index, refetch, setRemoveUser }) => {
 
     return (
         <Tr className=" p-20 border-b-4  border-primary text-center">
-            <Th>{index + 1}</Th>
+            <Th className="text-primary font-bold">{index + 1}</Th>
             <Td className="p-8 text-primary font-bold">{user?.email}</Td>
             <Td className="p-8 text-primary font-bold">
                 {role !== "admin" && (
                     <button
                         onClick={makeAdmin}
-                        className="btn btn-primary hover:bg-white hover:text-primary"
+                        className="btn bg-primary text-white hover:bg-white hover:text-primary"
                     >
                         Make admin
                     </button>

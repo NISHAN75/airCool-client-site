@@ -13,7 +13,7 @@ const MyOrder = ({ order, index, setRemoveOrder }) => {
       <Td className="p-5 text-primary font-bold">${order?.pay}</Td>
       <Td className="p-5 ">
         {order?.pay && !order?.paid && (
-          <Link to={`/dashBoard/payment/${order?._id}`}>
+          <Link to={`/dashborad/payment/${order?._id}`}>
             <button className="btn btn-active  bg-primary hover:bg-white hover:text-black px-10">
               pay
             </button>
@@ -21,11 +21,11 @@ const MyOrder = ({ order, index, setRemoveOrder }) => {
         )}
         {order?.pay && order?.paid && (
           <div>
-            <span className="text-secondary">Paid</span>
-            <p>
+            <span className="text-primary font-bold">Paid</span>
+            <p className="text-primary font-bold">
               Transaction id:
               <br />
-              <span className="text-secondary">{order?.transactionId}</span>
+              <span className="text-primary font-bold">{order?.transactionId}</span>
             </p>
           </div>
         )}

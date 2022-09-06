@@ -20,6 +20,7 @@ import AllProducts from './Components/Pages/Admin/AllProducts/AllProducts';
 import AllOrders from './Components/Pages/Admin/AllOrders/AllOrders';
 import MyOrders from './Components/Pages/NormalUser/MyOrders/MyOrders';
 import Users from './Components/Pages/Admin/Users/Users';
+import Payment from './Components/Pages/NormalUser/Payment/Payment';
 
 
 
@@ -43,6 +44,7 @@ function App() {
           <Route path="allOrder"  element={<AllOrders/>}></Route>
           <Route path="users"  element={<Users/>}></Route>
           <Route path="myOrders"  element={<MyOrders/>}></Route>
+          <Route path="payment/:id"  element={<Payment/>}></Route>
           
         </Route>
         <Route  path='/login' element={<Login/>}></Route>
