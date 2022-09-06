@@ -28,7 +28,7 @@ const CheckoutForm = ({ order }) => {
         }
       });
   }, [pay]);
-  console.log(clientSecret);
+
 
   const handleSubmit = async (event) => {
     event.preventDefault();

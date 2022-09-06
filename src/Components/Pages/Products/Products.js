@@ -26,7 +26,7 @@ const Products = () => {
   
 
   return (
-    <div className="mx-20 " >
+    <div className="my-20 mx-20" >
       <h2 className="text-center font-bold text-4xl text-primary my-10">
         {" "}
         Our Products
@@ -36,7 +36,7 @@ const Products = () => {
           <Product product={product} key={product._id}></Product>
         ))}
       </div>
-      <div className="m-btn-area w-50 mx-auto text-center mt-5">
+      <div className="m-btn-area w-50 mx-auto text-center mt-10">
         <button className="btn btn-primary text-white my-5 hover:bg-white hover:text-primary">
           <Link to="/manage">Manage Items</Link>{" "}
         </button>
