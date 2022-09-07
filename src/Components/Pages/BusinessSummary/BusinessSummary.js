@@ -17,7 +17,15 @@ const BusinessSummary = () => {
       </p>
 
       <div className="summary-card grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10 mt-20 mb-20">
-        <div className="card  bg-primary shadow-lg">
+        <div className="card  bg-primary shadow-lg"
+        data-aos="flip-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        >
           <figure className="px-10 pt-10 ">
             <FaFlag className="text-primary text-6xl" />
           </figure>
@@ -26,7 +34,15 @@ const BusinessSummary = () => {
             <p className="text-3xl font-bold text-white">countries </p>
           </div>
         </div>
-        <div className="card  bg-primary shadow-lg ">
+        <div className="card  bg-primary shadow-lg"
+        data-aos="flip-down"
+        data-aos-offset="200"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        >
           <figure className="px-10 pt-10">
             <FaDesktop className="text-white text-6xl" />
           </figure>
@@ -35,7 +51,15 @@ const BusinessSummary = () => {
             <p className="text-3xl font-bold text-white">complete projects+</p>
           </div>
         </div>
-        <div className="card  bg-primary shadow-lg">
+        <div className="card  bg-primary shadow-lg" 
+        data-aos="flip-up"
+        data-aos-offset="200"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        >
           <figure className="px-10 pt-10">
             <FaPeopleCarry className="text-white text-6xl" />
           </figure>
@@ -44,7 +68,15 @@ const BusinessSummary = () => {
             <p className="text-3xl font-bold text-white">happy clients+ </p>
           </div>
         </div>
-        <div className="card  bg-primary shadow-lg">
+        <div className="card  bg-primary shadow-lg"
+        data-aos="flip-down"
+        data-aos-offset="300"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        >
           <figure className="px-10 pt-10">
             <FaHandSparkles className="text-white text-6xl" />
           </figure>

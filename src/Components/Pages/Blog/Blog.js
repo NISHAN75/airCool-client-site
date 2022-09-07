@@ -6,9 +6,17 @@ import { IconName } from "react-icons/fa";
 const Blog = ({ blog }) => {
 
     const { name, short, img, _id } = blog;
-    
+
     return (
-        <div className='blog-caption mb-5'>
+        <div className='blog-caption mb-5'
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-offset="300"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false" >
             <div>
                 <img src={img}></img>
             </div>

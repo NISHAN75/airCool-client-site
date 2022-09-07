@@ -21,118 +21,71 @@ const Blogs = () => {
 
                 </div>
                 <div className='blog-card'>
-                    <div class="card w-full bg-primary shadow-xl mb-5">
+                    <div class="card w-full bg-[#F1F4F7] shadow-xl border-4 border-primary mb-5"
+                    data-aos="fade-left"
+                   data-aos-delay="150"
+                   data-aos-duration="1000" >
                         <div class="card-body">
-                            <h2 class="card-title text-2xl text-white font-bold mb-5">
+                            <h2 class="card-title text-2xl text-black font-bold mb-10">
                                 Categories
                             </h2>
                             <ul className='text-left'>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
+                                <li className=' flex mb-2 '><span className=' ml-2 text-black font-bold hover:text-primary'>AIR - CONDITIONING</span></li>
+                                <li className=' flex mb-2'><span className=' ml-2 text-black font-bold hover:text-primary'>HEATING & FURNACE</span></li>
+                                <li className=' flex mb-2'><span className=' ml-2 text-black font-bold hover:text-primary'>MAINTENANCE</span></li>
+                                <li className=' flex mb-2'><span className=' ml-2 text-black font-bold hover:text-primary'>COMMERCIAL</span></li>
                             </ul>
                         </div>
 
                     </div>
-                    <div class="card w-full bg-primary shadow-xl mb-5">
+                    <div class="card w-full bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
+                     data-aos="fade-left"
+                     data-aos-delay="150"
+                     data-aos-duration="1000">
                         <div class="card-body">
-                            <h2 class="card-title text-2xl text-white font-bold mb-5">
-                                Categories
+                            <h2 class="card-title text-2xl text-black font-bold mb-5">
+                            Archives
                             </h2>
                             <ul className='text-left'>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
+                                <li className=' flex mb-2 '><span className=' ml-2 text-black font-bold hover:text-primary'>FEBRUARY (2016)</span></li>
+                                <li className=' flex mb-2'><span className=' ml-2 text-black font-bold hover:text-primary'>DECEMBER (2015)</span></li>
+                                <li className=' flex mb-2'><span className=' ml-2 text-black font-bold hover:text-primary'>JULY (2015)</span></li>
+                                <li className=' flex mb-2'><span className=' ml-2 text-black font-bold hover:text-primary'>JANUARY (2015)</span></li>
                             </ul>
                         </div>
 
                     </div>
-                    <div class="card w-full bg-primary shadow-xl mb-5">
+                    <div class="card w-96 bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
+                     data-aos="fade-left"
+                     data-aos-delay="150"
+                     data-aos-duration="1000">
                         <div class="card-body">
-                            <h2 class="card-title text-2xl text-white font-bold mb-5">
-                                Categories
+                            <h2 class="card-title text-2xl text-black font-bold mb-5">
+                            Recent Post
                             </h2>
-                            <ul className='text-left'>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                            </ul>
+                            <div>
+                                <div><img src='https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-full h-2/4 rounded-lg'></img></div>
+                                <p className='text-black font-bold hover:text-primary mt-5'>3 Ways a Tune-Up Prevents A/C from Breaking Down</p>
+                            </div>
                         </div>
 
-                    </div>
-                    <div class="card w-full bg-primary shadow-xl mb-5">
+                    </div> 
+                    <div class="card w-96 bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
+                     data-aos="fade-left"
+                     data-aos-delay="150"
+                     data-aos-duration="1000">
                         <div class="card-body">
-                            <h2 class="card-title text-2xl text-white font-bold mb-5">
-                                Categories
+                            <h2 class="card-title text-2xl text-black font-bold mb-5">
+                            Recent Post
                             </h2>
-                            <ul className='text-left'>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                            </ul>
+                            <div>
+                                <div><img src='https://images.pexels.com/photos/7541353/pexels-photo-7541353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-full h-2/4 rounded-lg'></img></div>
+                                <p className='text-black font-bold hover:text-primary mt-5'>Smart Alternative to an Air Conditioner</p>
+                            </div>
                         </div>
 
-                    </div>
-                    <div class="card w-full bg-primary shadow-xl mb-5">
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-white font-bold mb-5">
-                                Categories
-                            </h2>
-                            <ul className='text-left'>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="card w-full bg-primary shadow-xl mb-5">
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-white font-bold mb-5">
-                                Categories
-                            </h2>
-                            <ul className='text-left'>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="card w-full bg-primary shadow-xl mb-5">
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-white font-bold mb-5">
-                                Categories
-                            </h2>
-                            <ul className='text-left'>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="card w-full bg-primary shadow-xl mb-5">
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-white font-bold mb-5">
-                                Categories
-                            </h2>
-                            <ul className='text-left'>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                                <li className=' flex mb-2'><FaAngleRight></FaAngleRight><span className=' ml-2'>AIR - CONDITIONING</span></li>
-                            </ul>
-                        </div>
-
-                    </div>
+                    </div> 
+                   
 
                 </div>
             </div>

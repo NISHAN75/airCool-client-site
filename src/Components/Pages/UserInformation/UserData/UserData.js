@@ -23,7 +23,15 @@ const UserData = () => {
     }
     console.log(profile)
     return (
-        <section className='my-20 mx-20'>
+        <section className='my-20 mx-20'  
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-offset="300"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false">
             <div className="card w-full mx-auto  bg-primary shadow-xl ">
                 <figure className="px-10 pt-10">
                     <div className="avatar online">

@@ -11,7 +11,16 @@ const Location = () => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 mt-10 mx-10">
-                <div class="card w-full bg-base-100 shadow-xl">
+                <div class="card w-full bg-base-100 shadow-xl"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+               data-aos-offset="300"
+               data-aos-delay="150"
+               data-aos-duration="1000"
+               data-aos-easing="ease-in-out"
+               data-aos-mirror="true"
+               data-aos-once="false" 
+                >
                     <div class="card-body">
                         <h2 class="card-title text-2xl text-primary font-bold mb-10">Agrabad
                         </h2>
@@ -29,7 +38,16 @@ const Location = () => {
                     </div>
 
                 </div>
-                <div class="card w-full bg-base-100 shadow-xl">
+                <div class="card w-full bg-base-100 shadow-xl"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+               data-aos-offset="300"
+               data-aos-delay="150"
+               data-aos-duration="1000"
+               data-aos-easing="ease-in-out"
+               data-aos-mirror="true"
+               data-aos-once="false" 
+               >
                     <div class="card-body">
                         <h2 class="card-title text-2xl text-primary font-bold mb-10">Halishahar
                         </h2>
@@ -48,7 +66,16 @@ const Location = () => {
                     </div>
 
                 </div>
-                <div class="card w-full bg-base-100 shadow-xl">
+                <div class="card w-full bg-base-100 shadow-xl"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+               data-aos-offset="300"
+               data-aos-delay="150"
+               data-aos-duration="1000"
+               data-aos-easing="ease-in-out"
+               data-aos-mirror="true"
+               data-aos-once="false" 
+               >
                     <div class="card-body">
                         <h2 class="card-title text-2xl text-primary font-bold mb-10">Potenga
                         </h2>

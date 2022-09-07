@@ -31,7 +31,7 @@ const Products = () => {
         {" "}
         Our Products
       </h2>
-      <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 lg:gap-15 md:gap-8 sm:gap-5 gap-5">
+      <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 lg:gap-15 md:gap-8 sm:gap-5 gap-5 mt-20">
         {products.slice(0, 6).map((product) => (
           <Product product={product} key={product._id}></Product>
         ))}
