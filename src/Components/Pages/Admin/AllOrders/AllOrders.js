@@ -35,18 +35,21 @@ const AllOrders = () => {
       <h2 className="text-center font-bold mt-5 text-primary text-4xl">
         All Order : {allOrders.length}
       </h2>
-      <Table className="text-left my-10">
+      <Table className="text-left my-10 text-center">
         <Thead>
           <Tr className="bg-primary text-white uppercase">
             <Th>S.L</Th>
             <Th>User</Th>
             <Th>Parts Name</Th>
             <Th>Phone number</Th>
-            <Th>Order Quantity</Th>
-            <Th>Payment</Th>
+            <Th>Quantity</Th>
+            <Th>Amount</Th>
+            <Th>Statues</Th>
+            <Th>payment Update</Th>
+           
           </Tr>
         </Thead>
-        <Tbody>
+        <Tbody className="text-center">
           {allOrders.map((order, index) => (
             <AllOrder
               setRemoveOrder={setRemoveOrder}

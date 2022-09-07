@@ -50,8 +50,11 @@ const MyOrders = () => {
               <Th  className="px-5 py-4">User</Th>
               <Th  className="px-5 py-4">Parts Name</Th>
               <Th  className="px-5 py-4">Phone number</Th>
-              <Th  className="px-5 py-4">Order Quantity</Th>
+              <Th  className="px-5 py-4">Quantity</Th>
+              <Th  className="px-5 py-4">Amount</Th>
               <Th  className="px-5 py-4">Payment</Th>
+              <Th  className="px-5 py-4">Statues</Th>
+              <Th  className="px-5 py-4"> Delete</Th>
             </Tr>
           </Thead>
           <Tbody>

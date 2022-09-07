@@ -70,6 +70,7 @@ const CheckoutForm = ({ order }) => {
       const payment = {
         order: _id,
         transactionId: paymentIntent.id,
+        shipment:"shifting",
       };
       fetch(`http://localhost:5000/orders/${_id}`, {
         method: "PATCH",
@@ -82,7 +83,6 @@ const CheckoutForm = ({ order }) => {
         .then((res) => res.json())
         .then((data) => {
           setProcessing(false);
-          console.log(data);
         });
     }
   };

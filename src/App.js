@@ -13,7 +13,6 @@ import RequireAuth from './Hooks/RequireAuth';
 import ProductDetails from './Components/Pages/ProductDetails/ProductDetails';
 import { ToastContainer } from 'react-toastify';
 import Dashboard from './Components/Pages/Dashborad/Dashborad';
-import Profile from './Components/Pages/Dashborad/Profile';
 import AddReview from './Components/Pages/NormalUser/AddReview/AddReview';
 import AddProduct from './Components/Pages/Admin/AddProduct/AddProduct';
 import AllProducts from './Components/Pages/Admin/AllProducts/AllProducts';
@@ -21,6 +20,12 @@ import AllOrders from './Components/Pages/Admin/AllOrders/AllOrders';
 import MyOrders from './Components/Pages/NormalUser/MyOrders/MyOrders';
 import Users from './Components/Pages/Admin/Users/Users';
 import Payment from './Components/Pages/NormalUser/Payment/Payment';
+import Footer from './Components/Pages/Footer/Footer';
+import About from './Components/Pages/About/About';
+import Contact from './Components/Pages/Contact/Contact';
+import Blog from './Components/Pages/Blog/Blog';
+import NotFound from './Components/Pages/NotFound/NotFound';
+import Profile from './Components/Pages/Profile/Profile';
 
 
 
@@ -47,10 +52,15 @@ function App() {
           <Route path="payment/:id"  element={<Payment/>}></Route>
           
         </Route>
+        <Route  path='/about' element={<About/>}></Route>
+        <Route  path='/blog' element={<Blog/>}></Route>
+        <Route  path='/contact' element={<Contact/>}></Route>
         <Route  path='/login' element={<Login/>}></Route>
         <Route  path='/register' element={<Register/>}></Route>
+        <Route  path='*' element={<NotFound/>}></Route>
       </Routes>
       < ToastContainer/>
+      <Footer></Footer>
     </div>
   );
 }

@@ -60,7 +60,7 @@ const Register = () => {
   }
 
   return (
-    <section className=" flex h-3/4 justify-center items-center">
+    <section className=" my-20 flex h-3/4 justify-center items-center">
       <div className="card card-compact w-96 shadow-xl">
         <div className="card-body w-full">
           <h2 className="card-title  justify-center mb-10">Please Register</h2>
