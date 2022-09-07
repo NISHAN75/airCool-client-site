@@ -38,7 +38,7 @@ const Products = () => {
       </div>
       <div className="m-btn-area w-50 mx-auto text-center mt-10">
         <button className="btn btn-primary text-white my-5 hover:bg-white hover:text-primary">
-          <Link to="/manage">Manage Items</Link>{" "}
+          <Link to="/manage">All Products</Link>{" "}
         </button>
       </div>
     </div>

@@ -26,6 +26,7 @@ import Contact from './Components/Pages/Contact/Contact';
 import Blog from './Components/Pages/Blog/Blog';
 import NotFound from './Components/Pages/NotFound/NotFound';
 import Profile from './Components/Pages/Profile/Profile';
+import UserInput from './Components/Pages/UserInformation/UserInput';
 
 
 
@@ -57,6 +58,7 @@ function App() {
         <Route  path='/contact' element={<Contact/>}></Route>
         <Route  path='/login' element={<Login/>}></Route>
         <Route  path='/register' element={<Register/>}></Route>
+        <Route  path='/upadateProfoile' element={<UserInput/>}></Route>
         <Route  path='*' element={<NotFound/>}></Route>
       </Routes>
       < ToastContainer/>

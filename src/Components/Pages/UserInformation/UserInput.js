@@ -20,7 +20,7 @@ const UserInput = () => {
   const imgStorageKey = "1917252678d6bb9e9686c386e330234a";
 
   const onSubmit = async (data) => {
-    console.log(data);
+
     const image = data.image[0];
     const formDate = new FormData();
     formDate.append("image", image);
@@ -33,6 +33,8 @@ const UserInput = () => {
       .then((result) => {
         if (result.success) {
           const img = result.data.url;
+          const number =data.number
+          console.log(number)
           const myProfile = {
             name: data.name,
             email: data.email,
@@ -40,9 +42,10 @@ const UserInput = () => {
             linkdin: data.linkedin,
             adress: data.Address,
             eduction: data.Education,
-            number: data.phone,
+            number: data.number,
             img: img,
           };
+          
 
           //  send to database
           fetch("http://localhost:5000/profile", {
@@ -225,7 +228,7 @@ const UserInput = () => {
               type="number"
               placeholder="Enter Your Phone"
               className="input input-bordered w-full text-black"
-              {...register("Phone", {
+              {...register("number", {
                 required: {
                   value: true,
                   message: "Phone Number Required",
@@ -233,9 +236,9 @@ const UserInput = () => {
               })}
             />
             <label className="label">
-              {errors.linkedin?.type === "required" && (
+              {errors.number?.type === "required" && (
                 <span className="label-text-alt text-red-500">
-                  {errors.Phone.message}
+                  {errors.number.message}
                 </span>
               )}
             </label>
