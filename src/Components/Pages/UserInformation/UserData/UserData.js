@@ -35,6 +35,7 @@ const UserData = () => {
                 <div className="card-body  text-left">
                     <h2 className="card-title">Name: <span className='text-xl font-bold text-white'>{profile.name}</span></h2>
                     <p className='font-bold text-white text-xl'>Number: <span className='font-bold text-white text-xl'>{profile.number}</span></p>
+                    <p className='font-bold text-white text-xl'>Email: <span className='font-bold text-white text-xl'>{profile.email}</span></p>
                     <p className='font-bold text-white text-xl'>Eduction: <span className='font-bold text-white text-xl'>{profile.eduction}</span></p>
                     <p className='font-bold text-white text-xl'>Adress: <span className='font-bold text-white text-xl'>{profile.adress}</span></p>
                     <div className="card-actions mt-10">

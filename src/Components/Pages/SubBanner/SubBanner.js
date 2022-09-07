@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 const SubBanner = () => {
     return (
-        <section className='my-20 bg-[#F6F6F6] py-10'>
-            <div className='subBanner-heading grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-10  my-20 mx-10 items-center justify-center'>
+        <section className='my-20 bg-[#F6F6F6] py-10 px-10'>
+            <div className='subBanner-heading grid lg:grid-cols-2 md:grid-cols-2 gap-10  my-20 lg:mx-10 items-center justify-center'>
                 <div className='img-area'>
-                    <img src='https://images.pexels.com/photos/7861505/pexels-photo-7861505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'></img>
+                    <img src='https://images.pexels.com/photos/7861505/pexels-photo-7861505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-3/4 h-auto'></img>
                 </div>
                 <div className='subBanner-info'>
                     <h5 className='text-4xl text-primary font-bold mb-10'>We Offer A Peace Of Mind Satisfaction Guarantee!</h5>

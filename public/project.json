@@ -1,73 +1,65 @@
 [
-    {
-        "name": "Evaporator Coil",
-        "img": "https://i.ibb.co/PYWQfwY/71-SQNkbt-DKL-AC-UL320.jpg",
-        "description": "These coils are usually made out of copper but can also be made of steel or aluminum. Copper is the preferred choice because it has better thermal conductivity.",
-        "price": "80",
-        "minimum": "100",
-        "available":"400"
-        
-    },
-    {
-        "name": "Compressor",
-        "img": "https://i.ibb.co/0ZzfpBF/518-C-d-Xa-Xd-S-AC-UL320.jpg",
-        "description": "Perhaps the most important of all air conditioner components, the compressor is the workhorse of air conditioning.",
-        "price": "40",
-        "minimum": "100",
-        "available":"700"
+       {
+        "name": "Repair or Replace Air Conditioning Services",
+        "img":"https://images.pexels.com/photos/8844891/pexels-photo-8844891.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "writer": "By Admin / in air conditioning",
+        "short": "Nunc cursus leo risus non ac efficitur vel sed Mauris iaculis finibus ex et viverra. Aliquam blandit ornare justo, in sagittis sem ornare sit amet. Cras posuere vel ex at vulputate. Praesent volutpat consequat urna lorem ipsuget sagittis.condimentum dictum urna id volutpat vivamus auctor magna eu velit suscipit…",
+        "message":"Nunc cursus leo risus non ac efficitur vel sed Mauris iaculis finibus ex et viverra. Aliquam blandit ornare justo, in sagittis sem ornare sit amet. Cras posuere vel ex at vulputate. Praesent volutpat consequat urna lorem ipsuget sagittis.condimentum dictum urna id volutpat vivamus auctor magna eu velit suscipit.Donec turpis orci, venenatis in turpis eget, ultricies pharetra risus. Etiam nec arcu et tellus faucibus imperdiet vitae a risus. Maecenas consequat diam libero. Nunc ut porta sapien, eget commodo lectus. Integer lobortis est non eros ornare, sed laoreet urna luctus. Proin fringilla sagittis elit nec consectetur.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Etiam venenatis ullamcorper eleifend. Donec orci sapien, varius sit amet fringilla et, porttitor in augupendisse potenti.",
+        "caption1":"Right Image Align",
+        "message1":"Curabitur at dolor lacinia sem tincidunacus consequat vel ut lectus. Donec egestas sit tincidunt Integer at ex ac massa hendrerit porta vel sed lectus. Vestibulum ac urna blandit, imperdiet massafinibus. Donec egestas sit tincidunt a dictum nisl sagittis eget lorem curabitur at dolor lacinia.Curabitur at dolor lacinia sem tincidunacus consequat vel ut lectus.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus.",
+         "img1":"https://images.pexels.com/photos/7166557/pexels-photo-7166557.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "caption2":"Left Image Align",
+        "img2":"https://images.pexels.com/photos/5463581/pexels-photo-5463581.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "message2":"Lorem tristique lectus dolor, a dictum nisl sagittis eget lorem curabitur at dolor lacinia sem tincidunt Integer at ex acndrerit portel sed lectuibulac urna masssequat lorem vectuslore egt odio inenim auctor vel. Vestibulum ac urna blandit, imperdiet a dictum nisl sagittis eget lorem nibus.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Etiam venenatis ullamcorper eleifend. Donec orci sapien, varius sit amet fringilla et.Aliquam faucibus tortor massa, ac mattis elit facilisis sit amet. Vestibulum vestibulum purus ante, nec facilisis augue ultricies in. Curabitur aliquam ac elit auctor sodales. Curabitur sagittis elit ut lorem feugiat ultrices and Maecenas venenatis felis quis metus tlorem iaculinteger a vestibulum nisl. Proin vel pretium ligula.",
+         "data":"15 july 2022"
+        },
        
-    },
-    {
-        "name": "Condenser Coil",
-        "img": "https://i.ibb.co/DCkPC0D/61-JOYv-Iv-Yl-L-AC-UL320.jpg",
-        "description": "The opposite of the evaporator, the condenser coil, pulls away heat from the refrigerant and ejects it to the outside environment.",
-        "price": "120",
-        "minimum": "80",
-        "available":"1000"
-      
-    },
-    {
-        "name": " Expansion Valve",
-        "img": "https://i.ibb.co/9ndYbJ1/61jtml6-Fi-DL-AC-UL320.jpg",
-        "description": "Full range of local controls on the device enable you to control the air conditioner even without Wi-Fi",
-        "price": "110",
-        "minimum": "100",
-        "available":"400"
- 
-    },
-    {
-        "name": "Air Filter",
-        "img": "https://i.ibb.co/4YzJhhV/81pe-V4c-Ynl-L-AC-UL320.jpg",
-        "description": "An air conditioner filter is like a screen mesh, keeping the dirt and dust, and other airborne particles away from the air conditioner.",
-        "price": "130",
-        "minimum": "100",
-        "available":"400"
-    
-    },
-    {
-        "name": " Evaporator Coil",
-        "img": "https://i.ibb.co/DY1tdP9/61l0l-Y7v-UJL-AC-UL320.jpg",
-        "description": "These coils are usually made out of copper but can also be made of steel or aluminum. Copper is the preferred choice because it has better thermal conductivity, is easier to work with, and is effortless to maintain.",
-        "price": "90",
-        "minimum": "150",
-        "available":"1400"
-    },
-    {
-        "name": "Refrigerant",
-        "img": "https://i.ibb.co/dmCkWj2/51-C2-Rl3-Yoc-S-AC-UL320.jpg",
-        "description": "We’ve mentioned refrigerant a lot above, and you might be wondering what it is. It is the substance that actually does the cooling.",
-        "price": "140",
-        "minimum": "100",
-        "available":"2000"
-    
-    },
-    {
-        "name": "Thermostat",
-        "img": "https://images.pexels.com/photos/3822938/pexels-photo-3822938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "description": "The thermostat is responsible for maintaining your desired indoor temperature. This is where you inform your AC unit of your cooling preference.",
-        "price": "50",
-        "minimum": "100",
-        "available":"4000"
-     
-    }
+       {
+        "name": "Smart Alternative to an Air Conditioner",
+        "img":"https://images.pexels.com/photos/7541358/pexels-photo-7541358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "writer": "By Admin / in air conditioning",
+        "short": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis at est ex. Sed accumsan quam eget eros impnt montes, nascetur ridiculus me accumsan quaendisse molestie urna lectus, in aliquet orci maximus et. Suspendisse molestie urna lectus, in aliquet orci maximus et.",
+        "message":"Nunc cursus leo risus non ac efficitur vel sed Mauris iaculis finibus ex et viverra. Aliquam blandit ornare justo, in sagittis sem ornare sit amet. Cras posuere vel ex at vulputate. Praesent volutpat consequat urna lorem ipsuget sagittis.condimentum dictum urna id volutpat vivamus auctor magna eu velit suscipit.Donec turpis orci, venenatis in turpis eget, ultricies pharetra risus. Etiam nec arcu et tellus faucibus imperdiet vitae a risus. Maecenas consequat diam libero. Nunc ut porta sapien, eget commodo lectus. Integer lobortis est non eros ornare, sed laoreet urna luctus. Proin fringilla sagittis elit nec consectetur.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Etiam venenatis ullamcorper eleifend. Donec orci sapien, varius sit amet fringilla et, porttitor in augupendisse potenti.",
+        "caption1":"Right Image Align",
+        "message1":"Curabitur at dolor lacinia sem tincidunacus consequat vel ut lectus. Donec egestas sit tincidunt Integer at ex ac massa hendrerit porta vel sed lectus. Vestibulum ac urna blandit, imperdiet massafinibus. Donec egestas sit tincidunt a dictum nisl sagittis eget lorem curabitur at dolor lacinia.Curabitur at dolor lacinia sem tincidunacus consequat vel ut lectus.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus.",
+         "img1":"https://images.pexels.com/photos/7166557/pexels-photo-7166557.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "caption2":"Left Image Align",
+        "img2":"https://images.pexels.com/photos/5463581/pexels-photo-5463581.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "message2":"Lorem tristique lectus dolor, a dictum nisl sagittis eget lorem curabitur at dolor lacinia sem tincidunt Integer at ex acndrerit portel sed lectuibulac urna masssequat lorem vectuslore egt odio inenim auctor vel. Vestibulum ac urna blandit, imperdiet a dictum nisl sagittis eget lorem nibus.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Etiam venenatis ullamcorper eleifend. Donec orci sapien, varius sit amet fringilla et.Aliquam faucibus tortor massa, ac mattis elit facilisis sit amet. Vestibulum vestibulum purus ante, nec facilisis augue ultricies in. Curabitur aliquam ac elit auctor sodales. Curabitur sagittis elit ut lorem feugiat ultrices and Maecenas venenatis felis quis metus tlorem iaculinteger a vestibulum nisl. Proin vel pretium ligula.",
+         "data":"06 jun 2022"
+        },
+       
+       {
+        "name": "Prepare Your Heating System for Winter",
+        "img":"https://images.pexels.com/photos/5207800/pexels-photo-5207800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "writer": "By Admin / in air conditioning",
+        "short": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis at est ex. Sed accumsan quam eget eros impnt montes, nascetur ridiculus me accumsan quaendisse molestie urna lectus, in aliquet orci maximus et. Suspendisse molestie urna lectus, in aliquet orci maximus et.",
+        "message":"Nunc cursus leo risus non ac efficitur vel sed Mauris iaculis finibus ex et viverra. Aliquam blandit ornare justo, in sagittis sem ornare sit amet. Cras posuere vel ex at vulputate. Praesent volutpat consequat urna lorem ipsuget sagittis.condimentum dictum urna id volutpat vivamus auctor magna eu velit suscipit.Donec turpis orci, venenatis in turpis eget, ultricies pharetra risus. Etiam nec arcu et tellus faucibus imperdiet vitae a risus. Maecenas consequat diam libero. Nunc ut porta sapien, eget commodo lectus. Integer lobortis est non eros ornare, sed laoreet urna luctus. Proin fringilla sagittis elit nec consectetur.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Etiam venenatis ullamcorper eleifend. Donec orci sapien, varius sit amet fringilla et, porttitor in augupendisse potenti.",
+        "caption1":"Right Image Align",
+        "message1":"Curabitur at dolor lacinia sem tincidunacus consequat vel ut lectus. Donec egestas sit tincidunt Integer at ex ac massa hendrerit porta vel sed lectus. Vestibulum ac urna blandit, imperdiet massafinibus. Donec egestas sit tincidunt a dictum nisl sagittis eget lorem curabitur at dolor lacinia.Curabitur at dolor lacinia sem tincidunacus consequat vel ut lectus.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus.",
+         "img1":"https://images.pexels.com/photos/7166557/pexels-photo-7166557.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "caption2":"Left Image Align",
+        "img2":"https://images.pexels.com/photos/5463581/pexels-photo-5463581.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "message2":"Lorem tristique lectus dolor, a dictum nisl sagittis eget lorem curabitur at dolor lacinia sem tincidunt Integer at ex acndrerit portel sed lectuibulac urna masssequat lorem vectuslore egt odio inenim auctor vel. Vestibulum ac urna blandit, imperdiet a dictum nisl sagittis eget lorem nibus.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Etiam venenatis ullamcorper eleifend. Donec orci sapien, varius sit amet fringilla et.Aliquam faucibus tortor massa, ac mattis elit facilisis sit amet. Vestibulum vestibulum purus ante, nec facilisis augue ultricies in. Curabitur aliquam ac elit auctor sodales. Curabitur sagittis elit ut lorem feugiat ultrices and Maecenas venenatis felis quis metus tlorem iaculinteger a vestibulum nisl. Proin vel pretium ligula.",
+         "data":" 25 jun 2022"
+        },
+       
+       {
+        "name": "The Cost to Install a Mini-Split Air Conditioner",
+        "img":"https://images.pexels.com/photos/3855479/pexels-photo-3855479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "writer": "By Admin / in air conditioning",
+        "short": "Aliquam quis ante euismod, ultricies urna sed, sodales justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean condimentum libero eu tellus dignissim, in tincidunt purus tristique. Curabitur rhoncus facilisis mauris vitas estrnare quam placerat lorem ipsum dolor.",
+        "message":"Nunc cursus leo risus non ac efficitur vel sed Mauris iaculis finibus ex et viverra. Aliquam blandit ornare justo, in sagittis sem ornare sit amet. Cras posuere vel ex at vulputate. Praesent volutpat consequat urna lorem ipsuget sagittis.condimentum dictum urna id volutpat vivamus auctor magna eu velit suscipit.Donec turpis orci, venenatis in turpis eget, ultricies pharetra risus. Etiam nec arcu et tellus faucibus imperdiet vitae a risus. Maecenas consequat diam libero. Nunc ut porta sapien, eget commodo lectus. Integer lobortis est non eros ornare, sed laoreet urna luctus. Proin fringilla sagittis elit nec consectetur.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Etiam venenatis ullamcorper eleifend. Donec orci sapien, varius sit amet fringilla et, porttitor in augupendisse potenti.",
+        "caption1":"Right Image Align",
+        "message1":"Curabitur at dolor lacinia sem tincidunacus consequat vel ut lectus. Donec egestas sit tincidunt Integer at ex ac massa hendrerit porta vel sed lectus. Vestibulum ac urna blandit, imperdiet massafinibus. Donec egestas sit tincidunt a dictum nisl sagittis eget lorem curabitur at dolor lacinia.Curabitur at dolor lacinia sem tincidunacus consequat vel ut lectus.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus.",
+         "img1":"https://images.pexels.com/photos/7166557/pexels-photo-7166557.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "caption2":"Left Image Align",
+        "img2":"https://images.pexels.com/photos/5463581/pexels-photo-5463581.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "message2":"Lorem tristique lectus dolor, a dictum nisl sagittis eget lorem curabitur at dolor lacinia sem tincidunt Integer at ex acndrerit portel sed lectuibulac urna masssequat lorem vectuslore egt odio inenim auctor vel. Vestibulum ac urna blandit, imperdiet a dictum nisl sagittis eget lorem nibus.Vel arcuorbi mollis mauris tincidunt, at vehicula orci rhoncus. Proin euismod enim ac bibendum blandit. Etiam venenatis ullamcorper eleifend. Donec orci sapien, varius sit amet fringilla et.Aliquam faucibus tortor massa, ac mattis elit facilisis sit amet. Vestibulum vestibulum purus ante, nec facilisis augue ultricies in. Curabitur aliquam ac elit auctor sodales. Curabitur sagittis elit ut lorem feugiat ultrices and Maecenas venenatis felis quis metus tlorem iaculinteger a vestibulum nisl. Proin vel pretium ligula.",
+         "data":"21 aug 2022"
+        }
+       
+   
+        
+
 ]
