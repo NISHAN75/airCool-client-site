@@ -29,8 +29,8 @@ const SubBanner = () => {
                 >
                     <h5 className='text-4xl text-primary font-bold mb-10'>We Offer A Peace Of Mind Satisfaction Guarantee!</h5>
                     <p className='text-xl text-primary mb-5'>Fixit Repair family-owned and operated air conditioning and heating company established in Ahmedabad in 1958.</p>
-                    <div class="card-actions items-center mx-auto">
-                        <Link to="/about"><button class="btn btn-primary text-white">About us</button></Link>
+                    <div className="card-actions items-center mx-auto">
+                        <Link to="/about"><button className="btn btn-primary text-white">About us</button></Link>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const SubBanner = () => {
                     <h5 className='text-4xl font-bold text-primary text-center'>Why’re We Difference</h5>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10 mt-20 mx-10">
-                    <div class="card w-full bg-primary shadow-xl"
+                    <div className="card w-full bg-primary shadow-xl"
                         data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom"
                         data-aos-offset="300"
@@ -50,16 +50,16 @@ const SubBanner = () => {
                         data-aos-mirror="true"
                         data-aos-once="false"
                     >
-                        <div class="card-body">
+                        <div className="card-body">
                             <span><FaAccessibleIcon className='text-primary text-5xl w-full mx-auto'></FaAccessibleIcon></span>
-                            <h2 class="card-title text-2xl text-white font-bold my-5">Professionalism
+                            <h2 className="card-title text-2xl text-white font-bold my-5">Professionalism
                             </h2>
                             <p className='text-white text-xl mb-5' >Nullam sapien mauris, placerat vitae sem vitae, efficitur venenatis lorem ipsum dolrhoncus hendrerit.</p>
 
                         </div>
 
                     </div>
-                    <div class="card w-full bg-primary shadow-xl"
+                    <div className="card w-full bg-primary shadow-xl"
                         data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom"
                         data-aos-offset="300"
@@ -69,9 +69,9 @@ const SubBanner = () => {
                         data-aos-mirror="true"
                         data-aos-once="false"
                     >
-                        <div class="card-body">
+                        <div className="card-body">
                             <span><FaPhoenixFramework className='text-primary text-5xl w-full mx-auto'></FaPhoenixFramework></span>
-                            <h2 class="card-title text-2xl text-white font-bold  my-5">Integrity
+                            <h2 className="card-title text-2xl text-white font-bold  my-5">Integrity
                             </h2>
                             <p className='text-white text-xl mb-5' >Vivamus varius, quam non accumsan convallui lorem variusenismod ex at ultriere sapien.</p>
 
@@ -79,7 +79,7 @@ const SubBanner = () => {
                         </div>
 
                     </div>
-                    <div class="card w-full bg-primary shadow-xl"
+                    <div className="card w-full bg-primary shadow-xl"
                         data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom"
                         data-aos-offset="300"
@@ -89,9 +89,9 @@ const SubBanner = () => {
                         data-aos-mirror="true"
                         data-aos-once="false"
                     >
-                        <div class="card-body">
+                        <div className="card-body">
                             <span><FaHubspot className='text-primary text-5xl w-full mx-auto'></FaHubspot></span>
-                            <h2 class="card-title text-2xl text-white font-bold my-5">Guaranteed
+                            <h2 className="card-title text-2xl text-white font-bold my-5">Guaranteed
                             </h2>
                             <p className='text-white text-xl mb-5' >Praesent tempus ligula lorem, non dapibus lectus vulputum blandit tblac rhoncus hendrerit..</p>
 
@@ -99,7 +99,7 @@ const SubBanner = () => {
                         </div>
 
                     </div>
-                    <div class="card w-full bg-primary shadow-xl"
+                    <div className="card w-full bg-primary shadow-xl"
                         data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom"
                         data-aos-offset="300"
@@ -109,9 +109,9 @@ const SubBanner = () => {
                         data-aos-mirror="true"
                         data-aos-once="false"
                     >
-                        <div class="card-body">
+                        <div className="card-body">
                             <span><FaStumbleupon className='text-primary text-5xl w-full mx-auto'></FaStumbleupon></span>
-                            <h2 class="card-title text-2xl text-white font-bold my-5">Achieventment
+                            <h2 className="card-title text-2xl text-white font-bold my-5">Achieventment
                             </h2>
                             <p className='text-white text-xl mb-5' >Fusce sit amet aliquam augue, et lorem suscipit mi. Cras lobortis lorem non tuperdiet enc sem id metus..</p>
 

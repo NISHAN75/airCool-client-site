@@ -17,16 +17,16 @@ const Blogs = () => {
                 <div>
                     {
                         blogs.map(blog => <Blog blog={blog} key={blog._id}></Blog>)
-                    } 
+                    }
 
                 </div>
                 <div className='blog-card'>
-                    <div class="card w-full bg-[#F1F4F7] shadow-xl border-4 border-primary mb-5"
-                    data-aos="fade-left"
-                   data-aos-delay="150"
-                   data-aos-duration="1000" >
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-black font-bold mb-10">
+                    <div className="card w-full bg-[#F1F4F7] shadow-xl border-4 border-primary mb-5"
+                        data-aos="fade-left"
+                        data-aos-delay="150"
+                        data-aos-duration="1000" >
+                        <div className="card-body">
+                            <h2 className="card-title text-2xl text-black font-bold mb-10">
                                 Categories
                             </h2>
                             <ul className='text-left'>
@@ -38,13 +38,13 @@ const Blogs = () => {
                         </div>
 
                     </div>
-                    <div class="card w-full bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
-                     data-aos="fade-left"
-                     data-aos-delay="150"
-                     data-aos-duration="1000">
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-black font-bold mb-5">
-                            Archives
+                    <div className="card w-full bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
+                        data-aos="fade-left"
+                        data-aos-delay="150"
+                        data-aos-duration="1000">
+                        <div className="card-body">
+                            <h2 className="card-title text-2xl text-black font-bold mb-5">
+                                Archives
                             </h2>
                             <ul className='text-left'>
                                 <li className=' flex mb-2 '><span className=' ml-2 text-black font-bold hover:text-primary'>FEBRUARY (2016)</span></li>
@@ -55,13 +55,13 @@ const Blogs = () => {
                         </div>
 
                     </div>
-                    <div class="card w-96 bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
-                     data-aos="fade-left"
-                     data-aos-delay="150"
-                     data-aos-duration="1000">
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-black font-bold mb-5">
-                            Recent Post
+                    <div className="card w-96 bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
+                        data-aos="fade-left"
+                        data-aos-delay="150"
+                        data-aos-duration="1000">
+                        <div className="card-body">
+                            <h2 className="card-title text-2xl text-black font-bold mb-5">
+                                Recent Post
                             </h2>
                             <div>
                                 <div><img src='https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-full h-2/4 rounded-lg'></img></div>
@@ -69,14 +69,14 @@ const Blogs = () => {
                             </div>
                         </div>
 
-                    </div> 
-                    <div class="card w-96 bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
-                     data-aos="fade-left"
-                     data-aos-delay="150"
-                     data-aos-duration="1000">
-                        <div class="card-body">
-                            <h2 class="card-title text-2xl text-black font-bold mb-5">
-                            Recent Post
+                    </div>
+                    <div className="card w-96 bg-[#F1F4F7] shadow-xl border-4 border-primary mb-10"
+                        data-aos="fade-left"
+                        data-aos-delay="150"
+                        data-aos-duration="1000">
+                        <div className="card-body">
+                            <h2 className="card-title text-2xl text-black font-bold mb-5">
+                                Recent Post
                             </h2>
                             <div>
                                 <div><img src='https://images.pexels.com/photos/7541353/pexels-photo-7541353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-full h-2/4 rounded-lg'></img></div>
@@ -84,8 +84,8 @@ const Blogs = () => {
                             </div>
                         </div>
 
-                    </div> 
-                   
+                    </div>
+
 
                 </div>
             </div>

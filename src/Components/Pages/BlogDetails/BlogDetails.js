@@ -12,7 +12,7 @@ const BlogDetails = () => {
   }, []);
   console.log(blog);
   return (
-    <div class="card w-full my-20">
+    <div className="card w-full my-20">
       <figure>
         <img src={blog.img} className="w-3/4 rounded-lg" alt="Shoes" />
       </figure>

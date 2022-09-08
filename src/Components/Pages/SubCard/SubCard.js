@@ -36,43 +36,43 @@ const SubCard = () => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 mt-10 mx-10">
-                <div class="card w-full bg-base-100 shadow-xl " data-aos="fade-right" data-aos-offset="200"
+                <div className="card w-full bg-base-100 shadow-xl " data-aos="fade-right" data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false">
-                    <div class="card-body bg-primary ">
+                    <div className="card-body bg-primary ">
                         <span><FaClock className='text-white text-6xl mb-5 w-full mx-auto'></FaClock></span>
-                        <h2 class="card-title text-2xl text-white font-bold">Open 24/7 - Available</h2>
+                        <h2 className="card-title text-2xl text-white font-bold">Open 24/7 - Available</h2>
                         <p className='text-white text-xl'>Emergency repair services 24 hours a day, seven days a week. Fixit all time ready to repair & supportive.</p>
                     </div>
 
                 </div>
-                <div class="card w-full bg-base-100 shadow-xl" data-aos="fade-up" data-aos-offset="200"
+                <div className="card w-full bg-base-100 shadow-xl" data-aos="fade-up" data-aos-offset="200"
                     data-aos-delay="100"
                     data-aos-duration="1500"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false">
-                    <div class="card-body bg-primary " >
+                    <div className="card-body bg-primary " >
                         <span><FaHandHoldingHeart className='text-white text-6xl mb-5 w-full mx-auto'></FaHandHoldingHeart></span>
-                        <h2 class="card-title text-2xl text-white font-bold">Satisfaction Guaranteed</h2>
+                        <h2 className="card-title text-2xl text-white font-bold">Satisfaction Guaranteed</h2>
                         <p className='text-white text-xl'>Service Fixit offers 100% satisfaction guarantees on all Air-conditioner & Heating services.</p>
                     </div>
 
                 </div>
-                <div class="card w-full bg-base-100 shadow-xl" 
-                        data-aos="fade-left"
-                        data-aos-offset="200"
-                        data-aos-delay="150"
-                        data-aos-duration="2000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="false" >
-                    <div class="card-body bg-primary " >
+                <div className="card w-full bg-base-100 shadow-xl"
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="150"
+                    data-aos-duration="2000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false" >
+                    <div className="card-body bg-primary " >
                         <span><FaHeadSideVirus className='text-white text-6xl mb-5 w-full mx-auto'></FaHeadSideVirus></span>
-                        <h2 class="card-title text-2xl text-white font-bold">Professionally Technicians</h2>
+                        <h2 className="card-title text-2xl text-white font-bold">Professionally Technicians</h2>
                         <p className='text-white text-xl'>Our technicians have your safety, welfare and comfort in mind at all times. they are certified and experienced.</p>
                     </div>
 
